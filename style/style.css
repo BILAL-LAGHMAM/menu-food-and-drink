@@ -385,17 +385,16 @@ footer .copy {
     justify-content: center;
 }
 
+/* start media */
+
 header nav #menu.show-menu{
-    max-height: 100vh;
+    min-height: 100vh;
     opacity: 1;
     overflow: visible;
     transition-duration: 1s;
 }
 
-/* end footer */
 
-
-/* start media */
 
 @media screen and (max-width: 550px) {
     header nav #menu {
@@ -515,6 +514,7 @@ header nav #menu.show-menu{
         flex-direction: column;
         font-size: 20px;
         justify-content: center;
+        text-align: center;
     }
 
     .about .content div h2 {
